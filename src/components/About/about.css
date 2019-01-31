@@ -1,0 +1,49 @@
+.about-main{
+    background: #564f6f;
+    color: #d1d7e0;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+
+}
+
+.about-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.about-photos>div{
+    margin:auto;
+}
+
+.about-photo-title{
+    font-size:4vh;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-photo{
+    width: 70vw;
+    height: auto;
+    border: 3px solid orange;
+    border-radius: 50px;
+}
+
+.about-photo-text{
+padding: 20px 50px;
+text-align: center;
+}
+
+@media(min-width: 550px){
+    .about-photo-text{
+        font-size: 6vh;
+    }
+
+    .about-photo-title{
+        font-size:8vh;
+    }
+}

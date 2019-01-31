@@ -1,0 +1,81 @@
+.home-main{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background: #564f6f;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+   color: #d1d7e0;
+}
+
+.home-photo{
+    width: 100%;
+    height: auto;
+}
+
+.home-text{
+    margin: 10px auto;
+    font-size: 3vh;
+    width: 85vw;
+    line-height: 1.3 
+}
+
+.home-input{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    margin: 0 auto 20px auto;
+    
+}
+
+.home-input>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.home-input input, .home-input textarea{
+    width: 40vw;
+    background-color: #d1d7e0;
+}
+
+.home-input-description{
+    height: 50px;
+    line-height: 1.5;
+}
+
+.home-submit{
+    margin: auto;
+}
+
+.home-input-submit{
+    width: auto;
+    background-color: #4C495D;
+    border: solid 3px #d1d7e0;
+    color: #d1d7e0;
+    font-size: 3vh;
+    margin-top: 10px;
+}
+
+@media(min-width: 550px){
+    .home-text{
+        font-size: 5.5vh;
+        margin: 20px auto;
+    }
+
+    .home-input input, .home-input textarea{
+        width: 55vw;
+        background-color: #d1d7e0;
+    }
+
+    .home-input>div{
+        font-size: 6.5vh;
+    
+    }
+
+    .home-input-submit{
+       font-size: 7.5vh;
+    }
+}
