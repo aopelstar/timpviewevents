@@ -17,6 +17,7 @@ export default class Home extends Component {
             description: "",
             time: ""
         }
+        
         this.handleDate = this.handleDate.bind(this);
     }
 
@@ -40,7 +41,7 @@ export default class Home extends Component {
             description: this.state.description,
             time: this.state.time
         }
-        let promise = axios.post('api/send', body)
+        let promise = axios.post('api/sendEmail', body)
         promise.then( () => {
             window.location.assign('/#/thanks');
         })
