@@ -24,3 +24,15 @@ a{
     text-decoration: none;
 
 }
+
+@media(min-width:500px){
+    .contact-desc{
+        font-size: 5.5vh;
+    }
+}
+
+@media(min-width:750px){
+    .contact-desc{
+        padding-top: 35px;
+    }
+}

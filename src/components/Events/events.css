@@ -41,4 +41,14 @@
     }
 }
 
+@media(min-width:750px){
+    .event-text{
+        padding-top:110px;
+    }
+    .event-header-text{
+        margin: auto 15px 30px 75px;
+        font-size: 4.5vh;
+    }
+}
+
 

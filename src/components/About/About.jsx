@@ -24,11 +24,12 @@ export default class About extends Component {
                     <div className="about-photo-title">
                         DJAK
                     </div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Rerum laborum rem ex delectus soluta necessitatibus 
-                        aperiam autem sunt. Praesentium, tenetur? Est dolores 
-                        harum saepe provident ab necessitatibus quod adipisci 
-                        dolorum.
+                        Born in the heart of a volcano, DJAK has only known
+                        greatness and triumph in all of his endeavors.  He has 
+                        literally thousands of hours working as an audio visual 
+                        professional.  He's an MC, a beat matcher and a mage level
+                        three.  He'll take your party up a notch without even breaking
+                        a sweat.
                     </div>
                     <div className="about-KC">
                         <img src={Casey} alt="Casey casual" className="about-photo"/>
