@@ -12,16 +12,16 @@ export default function Event() {
 
                     <div className="event-header">Weddings</div>
                     <div className="event-header-text">With well over one hundred weddings of experience, believe us when we say that we have you covered.
-                        We come prepared with dual wireless microphones, music that caters to your tastes and a small microphone
-                        that we can hide on your officiant.
-                        Let us handle the stress by providing an MC that will clearly direct your wedding exactly how you want it.  We'll take care of the big stuff and ensure your special day is perfect.
+                    We'll be your wedding DJ and then some.
+                        We come prepared with dual wireless microphones, music that caters to your tastes and we'll MC the event in a way that does not take any of the attention off of you and your big day.
+                        We'll take care of the big stuff and ensure your special day is perfect.
 
                     </div>
                 </div>
                 <div>
                     <div className="event-header">Parties</div>
                     <div className="event-header-text">
-                    Let us make your house party something special.  We will bring lights, and an energy that only seems to exist in movies.</div>
+                    Let us make your house party into a real banger.  We will bring lights, music and an energy that only seems to exist in movies.  Your party doesn't start until Timpview Events arrives.</div>
                 </div>
                 <div>
                     <div className="event-header">Corporate Events</div>

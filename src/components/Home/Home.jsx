@@ -41,7 +41,8 @@ export default class Home extends Component {
             description: this.state.description,
             time: this.state.time
         }
-        let promise = axios.post('api/sendEmail', body)
+        console.log("you have an error")
+        let promise = axios.post('http://localhost:7777/api/sendEmail', body)
         promise.then( () => {
             window.location.assign('/#/thanks');
         })
@@ -55,7 +56,14 @@ export default class Home extends Component {
                     <img src={pic} alt="party" className="home-photo" />
                 </div>
                 <div className='home-text'>
-                    Welcome to Timpview Events!  We keep it classy while promoting a fun, exciting atmosphere.  We are the perfect addition to your birthday party, wedding or corporate event.  
+                    <h1 className="h1">
+                    Welcome to Timpview Events!  
+                    </h1>
+                    <h2 className="h2">
+                        The Premier DJ For Weddings And Parties In Utah
+                    </h2>
+                    We keep it classy while promoting a fun, exciting atmosphere.  We are the perfect addition to your birthday party, wedding or corporate event.  
+                        
                     <br/>
                     Feel free to reach out for a free quote and to check availability:
             </div>

@@ -36,3 +36,9 @@ a{
         padding-top: 35px;
     }
 }
+
+@media(min-width:800px){
+    .contact-desc{
+        padding-top: 0;
+    }
+}

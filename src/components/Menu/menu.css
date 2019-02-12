@@ -2,7 +2,6 @@
     background: #2D283E;
     font-family: 'Lato', sans-serif;
     width: 100vw;
-    
 }
 
 .menu-container{
@@ -146,6 +145,33 @@
     .menu-slide-visible{
         top: 0px;
         transition: 1s
+    }
+}
+
+@media(min-width:800px){
+    .menu-title{
+        font-size: 7.5vh;
+    }
+
+    .menu-eq-false>div, .menu-EQ>div {
+        width: 4px;
+    }
+
+    .menu-EQ{
+        width: 30px;
+    }
+    .menu-slide{
+        margin-top: 35px;
+        height: 93vh
+
+    }
+
+    .menu-slide>a{
+        font-size: 15vh;
+    
+    }
+    .menu-container{
+        height: 50px;
     }
 }
 

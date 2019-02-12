@@ -1,16 +1,19 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 require('dotenv').config();
 
 // server creation
 const app = express();
 app.use( bodyParser.json() );
+app.use( cors() );
 
-app.use( express.static( `${__dirname}/../build` ) );
+// app.use( express.static( `${__dirname}/../build` ) );
 
 //nodemailer shtuff
 app.post('/api/sendEmail', (req, res) => {
+    console.log("message is coming through")
     nodemailer.createTestAccount((err, account) => {
         let transporter = nodemailer.createTransport({
             service: 'gmail',

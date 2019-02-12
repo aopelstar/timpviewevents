@@ -51,4 +51,10 @@
     }
 }
 
+@media(min-width:800px){
+    .event-text{
+        padding-top: 10px;
+    }
+}
+
 
