@@ -60,7 +60,11 @@ export default class Contact extends Component {
                          email us by clicking here
                          </a>
                         <br/>
-                        <a href="tel:1-800-555-1212">telephone: 801-319-0708</a>
+                        <a href="tel:1-801-319-0708">telephone by clicking here or just dial
+                         801-319-0708</a>
+                    </div>
+                    <div className="contact-desc">
+                        Or just send us a message:
                     </div>
                     <div className="contact-inputs"></div>
                     <div className='home-input'>
