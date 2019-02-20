@@ -36,13 +36,12 @@ export default class About extends Component {
                     </div>
                     <div className="about-photo-text">
                     <div className="about-photo-title">
-                        MCKC
+                        MC Casey
                     </div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Rerum laborum rem ex delectus soluta necessitatibus 
-                        aperiam autem sunt. Praesentium, tenetur? Est dolores 
-                        harum saepe provident ab necessitatibus quod adipisci 
-                        dolorum.
+                    MC Casey has been hosting events in Utah for many years now,
+                    and is excited to host yours.  Whether you're looking to have a party
+                    or a formal evening, Casey is ready and excited to help you have
+                    a night you'll fondly remember.
                     </div>
                 </div>
 
