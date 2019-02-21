@@ -38,7 +38,7 @@ export default class Contact extends Component {
             description: this.state.description,
             time: this.state.time
         }
-        let promise = axios.post('api/send', body)
+        let promise = axios.post('/api/sendEmail', body)
         promise.then( () => {
             window.location.assign('/#/thanks');
         })
