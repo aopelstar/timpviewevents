@@ -42,7 +42,7 @@ export default class Home extends Component {
             time: this.state.time
         }
         console.log("you have an error")
-        let promise = axios.post('http://localhost:7777/api/sendEmail', body)
+        let promise = axios.post('/api/sendEmail', body)
         promise.then( () => {
             window.location.assign('/#/thanks');
         })
