@@ -10,6 +10,12 @@
 
 }
 
+a, button{
+    cursor: pointer;
+}
+
+
+
 .thanks-message{
     margin: auto 25px;
     text-align: center;

@@ -9,28 +9,53 @@
    color: #d1d7e0;
 }
 .h1{
-    margin: 10px 0;
+    margin: 10px auto;
     font-weight: bolder;
-    font-size: 3.5vh;
+    font-size: 10vh;
 }
 
 .h2{
     font-weight: bolder;
-    font-size: 3vh;
-    margin-bottom: 10px;
+    font-size: 6vh;
+    margin: 50px 20px;
+}
+
+.photo-container{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+
 }
 
 .home-photo{
-    width: 100%;
-    height: auto;
+    position: absolute;
+    width: 150vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.35;;
+}
+
+.home-photo-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin: 50px 0px;
+
+    text-align: center;
 }
 
 .home-text{
     margin: 10px auto;
-    font-size: 3vh;
+    font-size: 4vh;
     width: 85vw;
     line-height: 1.3;
     text-align: center;
+}
+
+.input-text{
+    text-align: center;
+    margin: 20
 }
 
 .home-input{
@@ -38,6 +63,7 @@
     flex-direction: column;
     width: 85vw;
     margin: 0 auto 20px auto;
+    font-size: 4vh;
     
 }
 
@@ -66,12 +92,46 @@
     width: auto;
     background-color: #4C495D;
     border: solid 3px #d1d7e0;
+    border-radius: 7px;
     color: #d1d7e0;
-    font-size: 3vh;
+    font-size: 5vh;
     margin-top: 10px;
 }
 
+@media(min-width: 370px){
+    .h2{
+        margin: 55px 10px 70px 10px;
+    }
+
+    .home-text{
+        font-size: 4.5vh;
+    }
+
+    .home-input{
+        font-size: 3.5vh;
+    }
+
+    .home-input input, .home-input textarea{
+        font-size:3vh;
+    }
+
+
+}
+
+@media(min-width: 400px){
+    .h2{
+        margin: 55px 10px 85px 10px;
+    }
+
+    .home-text{
+        font-size: 4vh;
+    }
+}
+
 @media(min-width: 550px){
+    .home-photo-text{
+        margin-top: 40px;
+    }
     .home-text{
         font-size: 5.5vh;
         margin: 20px auto;
@@ -80,6 +140,7 @@
     .home-input input, .home-input textarea{
         width: 55vw;
         background-color: #d1d7e0;
+        font-size: 5vh;
     }
 
     .home-input>div{
@@ -92,16 +153,28 @@
     }
 
     .h1{
-        font-size: 9vh;
+        font-size: 17vh;
     }
     .h2{
-        font-size: 7vh;
-        width: 63%;
-        margin: 10px auto;
+        font-size: 9vh;
+        width: 75%;
+        margin: 20px auto 10px auto;
+    }
+
+    .home-text{
+        font-size: 8vh;
+    }
+
+    .home-input-submit{
+        font-size: 10vh;
     }
 }
 
 @media(min-width:750px){
+
+    .home-photo-text{
+        margin-top: 90px;
+    }
 
     .home-input>div{
         font-size: 6vh;
@@ -112,6 +185,9 @@
         width: 30vw;
         font-size: 4vh;
     }
+    .home-input textarea{
+        height: 9vh;
+    }
 
     .home-input input{
         height: 6vh;
@@ -119,9 +195,22 @@
     .home-input-submit{
         margin: 40px auto;
     }
+
+    .h1{
+        font-size: 12vh;
+    }
+
+    .h2{
+        font-size: 7vh;
+    }
+
+    .home-text{
+        font-size: 5.5vh;
+    }
 }
 
 @media(min-width: 800px){
+    
     .home-text{
         font-size: 5.5vh;
         margin: 20px auto;
@@ -148,6 +237,17 @@
         font-size: 7vh;
         width: 63%;
         margin: 10px auto;
+    }
+}
+
+@media(min-width: 1000px){
+    .h1{
+        font-size: 15vh;
+    }
+
+    .h2{
+        font-size: 8vh;
+        margin: 40px auto;
     }
 }
 

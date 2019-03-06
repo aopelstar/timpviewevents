@@ -51,9 +51,8 @@ export default class Contact extends Component {
                 < Menu />
                 <div className="contact-container">
                     <div className="contact-desc">
-                        Please feel free to reach out to us if you have any questions or if you would like
-                        to check availability! You can fill out our form, or send us an email directly or give us a call.
-                        We will get back to you as quickly as possible--usually within 24 hours!
+                        Please feel free to reach out to us if you have any questions or 
+                        to check availability! We will get back to you as quickly as possible--usually within 24 hours!
                         <br/>
                         <br/>
                          <a href="mailto:tantoprecords@gmail.com">
