@@ -8,7 +8,7 @@ export default function Event() {
         <div className="event-main">
             <Menu />
             <div className="event-text">
-                <div>
+                <div className="event-text-container">
 
                     <div className="event-header">Weddings</div>
                     <div className="event-header-text">With well over one hundred weddings of experience, believe us when we say that we have you covered.
@@ -18,12 +18,12 @@ export default function Event() {
 
                     </div>
                 </div>
-                <div>
+                <div className="event-text-container">
                     <div className="event-header">Parties</div>
                     <div className="event-header-text">
                     Let us make your house party into a real banger.  We will bring lights, music and an energy that only seems to exist in movies.  Your party doesn't start until Timpview Events arrives.</div>
                 </div>
-                <div>
+                <div className="event-text-container">
                     <div className="event-header">Corporate Events</div>
                     <div className="event-header-text">
                     Make your event as epic as your business.  We'll bring lighting, music, wireless microphones and everything you need to make sure that your

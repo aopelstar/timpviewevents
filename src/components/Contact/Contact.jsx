@@ -50,7 +50,7 @@ export default class Contact extends Component {
             <div className="contact-main">
                 < Menu />
                 <div className="contact-container">
-                    <div className="contact-desc">
+                    <div className="contact-desc contact-background">
                         Please feel free to reach out to us if you have any questions or 
                         to check availability! We will get back to you as quickly as possible--usually within 24 hours!
                         <br/>
@@ -67,7 +67,7 @@ export default class Contact extends Component {
                     <div className="contact-desc">
                         Or just send us a message:
                     </div>
-                    <div className="contact-inputs"></div>
+                    <div className="contact-inputs">
                     <div className='home-input'>
                         <div className="home-input-name">
                             <div className="home-input-text-name">
@@ -102,6 +102,7 @@ export default class Contact extends Component {
                         </div>
                             <textarea type="" className="home-input-description" onChange={(e) => this.handleChange("description", e.target.value)} />
                         </div>
+                                </div>
                         <div className="home-submit"><button className="home-input-submit" onClick={() => this.submit()}>Submit</button></div>
 
 

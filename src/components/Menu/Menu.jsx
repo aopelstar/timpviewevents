@@ -28,7 +28,7 @@ export default class Menu extends Component {
                         <div className="menu-bar4"></div>
                         <div className="menu-bar5"></div>
                     </div>
-                    <div className="menu-title">Timpview Events</div>
+                    <div className="menu-title"><Link to ='/'>Timpview Events</Link></div>
                     <div className="menu-hamburger" onClick={() => this.hamburger()}>
                     <div></div>
                     <div></div>

@@ -25,6 +25,14 @@
     margin-bottom: 10px;
 }
 
+.event-text-container{
+    border: solid 1px orange;
+    border-radius: 15px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #2D283E
+}
+
 @media(min-width:350px){
     .event-header-text{
         font-size: 3vh;
