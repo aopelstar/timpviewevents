@@ -11,7 +11,7 @@
 }
 
 .contact-desc{
-    margin: 50px auto 15px auto;
+    margin: 60px auto 15px auto;
     width: 75vw;
     font-size: 3vh;
     line-height: 1.3;
@@ -61,7 +61,7 @@ a{
     }
 }
 
-@media(min-width: 100px){
+@media(min-width: 1000px){
     .contact-desc{
         margin-top: 175px;
     }
