@@ -1,8 +1,14 @@
+
+a{
+    text-decoration: none;
+    color: #d1d7e0;
+}
 .menu-main{
     background: #2D283E;
     font-family: 'Lato', sans-serif;
     width: 100vw;
 }
+
 
 .menu-container{
     width: 100%;
@@ -111,6 +117,7 @@
     font-size: 6vh;
     text-align: center;
     margin: auto 0px;
+    text-decoration: none;
 
 }
 
@@ -240,7 +247,7 @@
 
 @media(min-width:1000px){
     .menu-container{
-        height:130px;
+        height:110px;
     }
 
     .menu-hamburger{
@@ -254,7 +261,7 @@
         margin:  auto
     }
     .menu-slide{
-        top: -350px;
+        top: -450px;
      }
 
     .menu-slide>a{
@@ -262,7 +269,7 @@
     }
 
     .menu-slide-visible{
-        top: 130px;
+        top: 110px;
     }
 
     .menu-EQ{

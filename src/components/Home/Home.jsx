@@ -68,7 +68,6 @@ export default class Home extends Component {
                     jam.
 
                     
-                </div>
                     </div>
                 </div>
                 <div className="home-text">
@@ -111,6 +110,7 @@ export default class Home extends Component {
                     <div className="home-submit"><button className="home-input-submit" onClick={() => this.submit()}>Submit</button></div>
 
 
+                            </div>
                 </div>
             </div>
         )

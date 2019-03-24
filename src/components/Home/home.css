@@ -1,3 +1,8 @@
+.a{
+    text-decoration: none;
+    color: #d1d7e0;
+}
+
 .home-main{
     min-height: 100vh;
     height: auto;
@@ -6,8 +11,9 @@
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-   color: #d1d7e0;
+    color: #d1d7e0;
 }
+
 .h1{
     margin: 10px auto;
     font-weight: bolder;
@@ -21,18 +27,18 @@
 }
 
 .photo-container{
-    overflow: hidden;
     position: relative;
     height: 100vh;
+    overflow-x: hidden;
 
 }
 
 .home-photo{
-    position: absolute;
+    opacity: .35;
+    position: fixed;
     width: 150vw;
     height: 100vh;
     z-index: 1;
-    opacity: 0.35;;
 }
 
 .home-photo-text{
@@ -41,30 +47,35 @@
     flex-direction: column;
     z-index: 2;
     margin: 50px 0px;
-
     text-align: center;
 }
 
 .home-text{
     margin: 10px auto;
+    position: relative;
     font-size: 4vh;
     width: 85vw;
     line-height: 1.3;
     text-align: center;
+    z-index: 2;
+    opacity: 1;
 }
 
 .input-text{
+    position: relative;
     text-align: center;
-    margin: 20
+    margin: 20;
 }
 
 .home-input{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 85vw;
     margin: 0 auto 20px auto;
     font-size: 4vh;
-    
+    z-index: 2;
+    opacity: 1;
 }
 
 .home-input>div{
