@@ -6,7 +6,7 @@
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-   color: #d1d7e0;
+   color: white;
 }
 
 .event-text{
@@ -25,12 +25,15 @@
     margin-bottom: 10px;
 }
 
+.event-text{
+    position: relative;
+    z-index: 2;
+}
+
 .event-text-container{
-    border: solid 1px orange;
     border-radius: 15px;
     margin: 10px auto;
     padding: 10px;
-    background-color: #2D283E
 }
 
 @media(min-width:350px){
@@ -62,6 +65,12 @@
 @media(min-width:800px){
     .event-text{
         padding-top: 10px;
+    }
+}
+
+@media(min-width:1000px){
+    .event-text{
+        padding-top: 65px;
     }
 }
 

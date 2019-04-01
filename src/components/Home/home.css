@@ -11,7 +11,7 @@
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
-    color: #d1d7e0;
+    color: white;
 }
 
 .h1{
@@ -102,9 +102,9 @@
 .home-input-submit{
     width: auto;
     background-color: #4C495D;
-    border: solid 3px #d1d7e0;
+    border: solid 3px white;
     border-radius: 7px;
-    color: #d1d7e0;
+    color: white;
     font-size: 5vh;
     margin-top: 10px;
 }
@@ -280,5 +280,8 @@
     .home-input>div{
         font-size: 6.5vh;
     
+    }
+    .home-input input, .home-input textarea{
+        width: 35vw;
     }
 }

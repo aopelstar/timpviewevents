@@ -60,18 +60,18 @@ export default class Home extends Component {
                             Welcome
                     </h1>
                         <h2 className="h2">
-                            we are the premier DJ group in Utah and we are stoked you found us.
+                            We are the premier DJ group in Utah and we are stoked you found us.
                     </h2>
                 <div className='home-text'>
 
-                  keeping it classy while promoting a fun and exciting atmosphere; parties are our
+                  Keeping it classy while promoting a fun and exciting atmosphere; parties are our
                     jam.
 
                     
                     </div>
                 </div>
                 <div className="home-text">
-              reach out for a free quote or to check availability:
+              Reach out for a free quote or to check availability:
                 </div>
                 <div className='home-input'>
                     <div className="home-input-name">

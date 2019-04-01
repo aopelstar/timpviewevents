@@ -1,10 +1,9 @@
 
-a{
+.menu-title>a{
     text-decoration: none;
-    color: #d1d7e0;
+    color: #564f6f;
 }
 .menu-main{
-    background: #2D283E;
     font-family: 'Lato', sans-serif;
     width: 100vw;
 }
@@ -16,15 +15,21 @@ a{
     position: fixed;
     z-index: 5;
     display: flex;
-    background: #564f6f;
+    justify-content: space-between;
+    background: white;
+}
+
+.logo-container{
+    display: flex;
+    margin-left: 5px;
 }
 
 .menu-EQ{
-    height: 20px;
+    height: 3vh;
     width: 20px;
     display: flex;
     justify-content: space-around;
-    margin: auto 0 auto 5px;
+    margin: auto 8px auto 0;
 }
 
 
@@ -68,14 +73,13 @@ a{
 }
 
 .menu-title{
-    color: #d1d7e0;
     margin: auto;
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: 700;
 }
 
 .menu-hamburger{
-    margin: auto 5px auto 0;
+    margin: auto 10px auto 0;
     height: 20px;
     width: 20px;
     display: flex;
@@ -93,33 +97,33 @@ a{
 }
 
 .menu-slide{
-    height: 30vh;
+    height: auto;
     width: 100%;
-    background: #2D283E;
+    background: white;
     position: fixed;
     z-index: 3;
-    top: -250px;
-    transition: 1.5s;
+    top: -40px;
+    transition: 1s;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     box-shadow: 0px 1px 3px orange;
 }
 
 .menu-slide-visible{
-    top: 38px;
+    top: 39px;
     transition: 1.5s
 }
 
 .menu-slide>a{
-    color: #d1d7e0;
+    color: #564f6f;
     width: 50%;
-    font-size: 6vh;
+    font-size: 3vh;
     text-align: center;
-    margin: auto 0px;
+    margin:3px 0px;
     text-decoration: none;
 
 }
+
 
 
 
@@ -134,14 +138,15 @@ a{
 
     .menu-EQ{
         width: 30px;
+        height: 5.5vh;
     }
     .menu-slide{
-        height: 45vh;
+        height: auto;
 
     }
 
     .menu-slide>a{
-        font-size: 15vh;
+        font-size: 8vh;
     }
 
     .menu-hamburger{
@@ -154,43 +159,39 @@ a{
         width: 20px;
         height: 5px;
     }
+
+   
 }
 
 @media(min-width: 750px){
     
     .menu-container{
-        height: 100px;
+        height: 70px;
         width: 100vw;
     }
 
+    .menu-title{
+        font-size: 5vh;
+    }
+
     .menu-EQ{
-        height: 7.5vh;
-        width: 80px;
-        display: flex;
-        justify-content: space-around;
-        margin: auto 0 auto 5px;
+        height: 4vh;
+        width: 65px;
+        margin-left: 15px;
     }
 
     .menu-EQ>div, .menu-eq-false>div{
-        width: 12px;
-    }
-
-    .menu-slide{
-        height: 30vh;
-
-    }
-
-    .menu-slide>a{
-        font-size: 9vh;
+        width: 10px;
     }
 
     .menu-slide-visible{
-        top: 100px;
+        top: 69px;
     }
 
     .menu-hamburger{
         height: 50px;
         width: 50px;
+        margin-right: 15px;
     
     }
     
@@ -198,6 +199,10 @@ a{
         width: 50px;
         height: 10px;
         margin-top: 5px;
+    }
+
+    .menu-slide>a{
+        font-size: 4vh;
     }
 }
 
@@ -212,6 +217,7 @@ a{
 
     .menu-EQ{
         width: 30px;
+        height: 6vh;
     }
     .menu-slide{
        top: -250px;
@@ -219,7 +225,7 @@ a{
     }
 
     .menu-slide>a{
-        font-size: 12vh;
+        font-size: 7.5vh;
     
     }
     .menu-container{
@@ -240,14 +246,14 @@ a{
     }
     .menu-slide-visible{
         top: 50px;
-        transition: 1.5s
+        transition: 1s
     }
 }
 
 
 @media(min-width:1000px){
     .menu-container{
-        height:110px;
+        height:80px;
     }
 
     .menu-hamburger{
@@ -264,21 +270,21 @@ a{
         top: -450px;
      }
 
-    .menu-slide>a{
-        font-size: 9.5vh;
-    }
-
     .menu-slide-visible{
-        top: 110px;
+        top: 79px;
     }
 
     .menu-EQ{
-        height: 7.5vh;
+        height: 5.5vh;
         width: 50px;
     }
 
     .menu-EQ>div, .menu-eq-false>div{
         width: 8px;
+    }
+
+    .menu-slide>a{
+        font-size: 5.5vh;
     }
 
 }
@@ -288,7 +294,7 @@ a{
 
 
     .menu-EQ{
-        height: 6vh;
+        height: 4.5vh;
         width: 60px;
         display: flex;
         justify-content: space-around;

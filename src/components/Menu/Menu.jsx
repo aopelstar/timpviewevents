@@ -20,32 +20,35 @@ export default class Menu extends Component {
         return (
             <div className="menu-main">
                 <div className="menu-container">
+                    <div className="logo-container">
 
-                    <div className={this.state.ham? "menu-EQ" : "menu-EQ menu-eq-false" }>
-                        <div className="menu-bar1"></div>
-                        <div className="menu-bar2"></div>
-                        <div className="menu-bar3"></div>
-                        <div className="menu-bar4"></div>
-                        <div className="menu-bar5"></div>
+
+                        <div className={this.state.ham ? "menu-EQ" : "menu-EQ menu-eq-false"}>
+                            <div className="menu-bar1"></div>
+                            <div className="menu-bar2"></div>
+                            <div className="menu-bar3"></div>
+                            <div className="menu-bar4"></div>
+                            <div className="menu-bar5"></div>
+                        </div>
+                        <div className="menu-title"><Link to='/'>Timpview Events</Link></div>
                     </div>
-                    <div className="menu-title"><Link to ='/'>Timpview Events</Link></div>
                     <div className="menu-hamburger" onClick={() => this.hamburger()}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
 
                     </div>
                 </div>
 
-                <div className={this.state.ham? "menu-slide" : "menu-slide menu-slide-visible"}>
-                
-                <Link to ='/'><div className="menu-home">Home</div></Link>
-                <Link to ='/about'><div className="menu-about">About</div></Link>
-                <Link to ='/events'><div className="menu-event">Events</div></Link>
-                <Link to ='/contact'><div className="menu-contact">Contact</div></Link>
+                <div className={this.state.ham ? "menu-slide" : "menu-slide menu-slide-visible"}>
+
+                    <Link to='/'><div className="menu-home">Home</div></Link>
+                    <Link to='/about'><div className="menu-about">About</div></Link>
+                    <Link to='/events'><div className="menu-event">Events</div></Link>
+                    <Link to='/contact'><div className="menu-contact">Contact</div></Link>
 
                 </div>
-                
+
 
 
 
