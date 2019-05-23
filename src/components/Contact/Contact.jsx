@@ -39,11 +39,9 @@ export default class Contact extends Component {
             description: this.state.description,
             time: this.state.time
         }
-        if(this.state.name.length==0 ){
+        if(this.state.name.length===0 ){
             alert(" please fill in all of the text boxes")
         } else{
-
-            console.log("you have an error")
             let promise = axios.post('/api/sendEmail', body)
             promise.then(() => {
                 window.location.assign('/#/thanks');
